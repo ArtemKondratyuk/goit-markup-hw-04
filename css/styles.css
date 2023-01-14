@@ -12,6 +12,7 @@
   --btn-hover-color: rgba(0, 0, 0, 0.1);
   --personal-color: rgba(46, 47, 66, 0.08);
   --personal: rgba(46, 47, 66, 0.16);
+  --svg-background: #8e8f99;
 }
 
 * {
@@ -136,6 +137,18 @@ button:hover {
 
 /* tel, mail */
 
+.mail {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+}
+
+.phone {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+}
+
 .link-tel,
 .link-mail {
   font-weight: 400;
@@ -158,9 +171,16 @@ button:hover {
 /* hero */
 
 .hero {
-  background: var(--text-color);
+  background-image: url(../images/dark-bg.png),
+    url(../images/people-officee.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--body-text-color);
   text-align: center;
   padding: 192px 0;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .solutions {
@@ -209,6 +229,54 @@ button:hover {
 
 .section {
   padding: 120px 0;
+}
+
+.anten-background {
+  background-color: var(--logo-studio-footer);
+  border-radius: 4px;
+  padding: 24px 102.14px;
+  margin-bottom: 8px;
+}
+
+.anten {
+  width: 64px;
+  height: 64px;
+}
+
+.clock-background {
+  background-color: var(--logo-studio-footer);
+  border-radius: 4px;
+  padding: 24px 102.14px;
+  margin-bottom: 8px;
+}
+
+.clock {
+  width: 61.22px;
+  height: 64px;
+}
+
+.notebook-background {
+  background-color: var(--logo-studio-footer);
+  border-radius: 4px;
+  padding: 31.5px 100px;
+  margin-bottom: 8px;
+}
+
+.notebook {
+  width: 61.22px;
+  height: 49.09px;
+}
+
+.astronaut-background {
+  background-color: var(--logo-studio-footer);
+  border-radius: 4px;
+  padding: 28.78px 113.87px 27.76px 100px;
+  margin-bottom: 8px;
+}
+
+.astronaut {
+  width: 55.13px;
+  height: 55.46px;
 }
 
 .feature {
@@ -290,6 +358,125 @@ button:hover {
   color: var(--body-text-color);
 }
 
+.social-menu {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+
+.social-icons {
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-brand);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram {
+  width: 16px;
+  height: 16px;
+}
+
+.twitter {
+  width: 16px;
+  height: 13px;
+}
+
+.facebook {
+  width: 8px;
+  height: 16px;
+}
+
+.linkedin {
+  width: 16px;
+  height: 16px;
+}
+
+/* customers */
+
+.customers {
+  display: flex;
+  justify-self: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.YACO-background {
+  background-color: var(--body-bg-color);
+  border: 1px solid var(--svg-background);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.YA-CO {
+  width: 104px;
+  height: 56px;
+}
+
+.tagline-background {
+  background-color: var(--body-bg-color);
+  border: 1px solid var(--svg-background);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.tagline-here {
+  width: 104px;
+  height: 56px;
+}
+
+.company-background {
+  background-color: var(--body-bg-color);
+  border: 1px solid var(--svg-background);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.company {
+  width: 104px;
+  height: 56px;
+}
+
+.foster-background {
+  background-color: var(--body-bg-color);
+  border: 1px solid var(--svg-background);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.foster-peters {
+  width: 104px;
+  height: 56px;
+}
+
+.brand-background {
+  background-color: var(--body-bg-color);
+  border: 1px solid var(--svg-background);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.brand {
+  width: 104px;
+  height: 56px;
+}
+
+.tagline-background {
+  background-color: var(--body-bg-color);
+  border: 1px solid var(--svg-background);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.tag-line {
+  width: 104px;
+  height: 56px;
+}
+
 /* page portfolio */
 
 .section-portfolio {
@@ -344,7 +531,6 @@ button:hover {
   width: 360px;
   background: var(--body-bg-color);
   box-shadow: 0px 1px 6px var(--personal-color);
- 
 }
 
 .content-border {
@@ -377,6 +563,11 @@ footer {
   padding-bottom: 100px;
 }
 
+.foter-menu {
+  display: flex;
+  gap: 120px;
+}
+
 .footer-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -402,4 +593,13 @@ footer {
   color: var(--footer-text-color);
   letter-spacing: 0.02em;
   margin-top: 16px;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social {
+  width: 208px;
+  height: 80px;
 }
