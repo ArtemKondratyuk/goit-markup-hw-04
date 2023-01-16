@@ -13,6 +13,9 @@
   --personal-color: rgba(46, 47, 66, 0.08);
   --personal: rgba(46, 47, 66, 0.16);
   --svg-background: #8e8f99;
+  --buttom-hover-color: #404BBF;
+  --svg-icons-background: rgba(255, 255, 255, 0.1);
+  --hover-social-icons: #31D0AA;
 }
 
 * {
@@ -137,18 +140,6 @@ button:hover {
 
 /* tel, mail */
 
-.mail {
-  width: 18px;
-  height: 18px;
-  margin-top: 3px;
-}
-
-.phone {
-  width: 18px;
-  height: 18px;
-  margin-top: 3px;
-}
-
 .link-tel,
 .link-mail {
   font-weight: 400;
@@ -217,6 +208,10 @@ button:hover {
   letter-spacing: 0.04em;
   margin-top: 48px;
   padding: 16px 28px;
+  border: 1px solid transparent;
+}
+.button:hover {
+  background: var(--buttom-hover-color);
 }
 
 /* section text strategy */
@@ -233,9 +228,13 @@ button:hover {
 
 .anten-background {
   background-color: var(--logo-studio-footer);
-  border-radius: 4px;
-  padding: 24px 102.14px;
+  border-radius: 4px; 
   margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .anten {
@@ -245,9 +244,13 @@ button:hover {
 
 .clock-background {
   background-color: var(--logo-studio-footer);
-  border-radius: 4px;
-  padding: 24px 102.14px;
+  border-radius: 4px; 
   margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clock {
@@ -258,8 +261,12 @@ button:hover {
 .notebook-background {
   background-color: var(--logo-studio-footer);
   border-radius: 4px;
-  padding: 31.5px 100px;
   margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .notebook {
@@ -270,8 +277,12 @@ button:hover {
 .astronaut-background {
   background-color: var(--logo-studio-footer);
   border-radius: 4px;
-  padding: 28.78px 113.87px 27.76px 100px;
-  margin-bottom: 8px;
+   margin-bottom: 8px;
+   width: 264px;
+   height: 112px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .astronaut {
@@ -363,7 +374,7 @@ button:hover {
   gap: 24px;
   justify-content: center;
   margin-top: 12px;
-  margin-bottom: 36px;
+ 
 }
 
 .social-icons {
@@ -374,6 +385,10 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.social-icons:hover {
+  background: var(--buttom-hover-color);
 }
 
 .instagram {
@@ -410,11 +425,22 @@ button:hover {
   border: 1px solid var(--svg-background);
   border-radius: 4px;
   padding: 16px 32px;
+  width: 168px;
+  height: 88px;
 }
 
 .YA-CO {
   width: 104px;
   height: 56px;
+  fill: var(--svg-background);
+}
+
+.YACO-background:hover {
+  border-color: var(--primary-brand);
+}
+
+.YA-CO:hover {
+  fill: var(--primary-brand);
 }
 
 .tagline-background {
@@ -422,11 +448,22 @@ button:hover {
   border: 1px solid var(--svg-background);
   border-radius: 4px;
   padding: 16px 32px;
+  width: 168px;
+  height: 88px;
 }
 
 .tagline-here {
   width: 104px;
   height: 56px;
+  fill: var(--svg-background);
+}
+
+.tagline-background:hover {
+  border-color: var(--primary-brand);
+}
+
+.tagline-here:hover {
+  fill: var(--primary-brand);
 }
 
 .company-background {
@@ -434,23 +471,46 @@ button:hover {
   border: 1px solid var(--svg-background);
   border-radius: 4px;
   padding: 16px 32px;
+  width: 168px;
+  height: 88px;
 }
 
 .company {
   width: 104px;
   height: 56px;
+  fill: var(--svg-background);
 }
+
+.company-background:hover{
+  border-color: var(--primary-brand);
+}
+
+.company:hover {
+  fill: var(--primary-brand);
+}
+
 
 .foster-background {
   background-color: var(--body-bg-color);
   border: 1px solid var(--svg-background);
   border-radius: 4px;
   padding: 16px 32px;
+  width: 168px;
+  height: 88px;
 }
 
 .foster-peters {
   width: 104px;
   height: 56px;
+  fill: var(--svg-background);
+}
+
+.foster-background:hover {
+  border-color: var(--primary-brand);
+}
+
+.foster-peters:hover {
+  fill: var(--primary-brand);
 }
 
 .brand-background {
@@ -458,23 +518,45 @@ button:hover {
   border: 1px solid var(--svg-background);
   border-radius: 4px;
   padding: 16px 32px;
+  width: 168px;
+  height: 88px;
 }
 
 .brand {
   width: 104px;
   height: 56px;
+  fill: var(--svg-background);
 }
 
-.tagline-background {
+.brand-background:hover{
+  border-color: var(--primary-brand);
+}
+
+.brand:hover {
+  fill: var(--primary-brand);
+}
+
+.tag-line-background {
   background-color: var(--body-bg-color);
   border: 1px solid var(--svg-background);
   border-radius: 4px;
   padding: 16px 32px;
+  width: 168px;
+  height: 88px;
 }
 
 .tag-line {
   width: 104px;
   height: 56px;
+  fill: var(--svg-background);
+}
+
+.tag-line-background:hover {
+ border-color: var(--primary-brand);
+}
+
+.tag-line:hover {
+  fill: var(--primary-brand);
 }
 
 /* page portfolio */
@@ -533,6 +615,13 @@ button:hover {
   box-shadow: 0px 1px 6px var(--personal-color);
 }
 
+.content-portfolio:hover {
+  box-shadow: 0px 1px 6px var(--personal-color), 0px 1px 1px var(--personal),
+    0px 2px 1px var(--personal-color);
+  border-radius: 0px 0px 4px 4px;
+ 
+}
+
 .content-border {
   border-left: 0.5px solid var(--logo-studio-footer);
   border-bottom: 0.5px solid var(--logo-studio-footer);
@@ -561,6 +650,10 @@ footer {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.flex-footer {
+  display: flex;
 }
 
 .foter-menu {
@@ -593,13 +686,34 @@ footer {
   color: var(--footer-text-color);
   letter-spacing: 0.02em;
   margin-top: 16px;
+  }
+
+.footer-social {
+padding-left: 120px;
 }
 
 .social-media {
-  display: flex;
+color: var(--body-bg-color);
+margin-bottom: 16px;
 }
 
-.social {
-  width: 208px;
-  height: 80px;
+.social-menu-footer {
+  display: flex;
+  gap: 16px;
 }
+
+.social-icons-footer {
+  width: 40px;
+  height: 40px;
+  background-color: var(--svg-icons-background);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons-footer:hover {
+  background-color: var(--hover-social-icons);
+}
+
+
