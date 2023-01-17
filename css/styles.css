@@ -97,7 +97,7 @@ button:hover {
 
 .web {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   color: var(--primary-brand);
@@ -106,7 +106,7 @@ button:hover {
 
 .studio {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   color: var(--text-color);
@@ -663,7 +663,7 @@ footer {
 
 .footer-web {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   color: var(--primary-brand);
@@ -672,7 +672,7 @@ footer {
 
 .footer-studio {
   font-family: "Raleway";
-  font-weight: 700;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   color: var(--logo-studio-footer);
@@ -716,4 +716,25 @@ margin-bottom: 16px;
   background-color: var(--hover-social-icons);
 }
 
+.instagram-footer {
+  width: 24px;
+  height: 24px; 
+  margin-top: 4px; 
+}
+
+.twitter-footer {
+  width: 24px;
+  height: 19.5px;
+}
+
+.facebook-footer {
+  width: 12px;
+  height: 24px;
+}
+
+.linkedin-footer {
+  width: 24px;
+  height: 24px;
+  margin-top: 3px;
+}
 
