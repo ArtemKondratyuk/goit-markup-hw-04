@@ -439,9 +439,10 @@ button:hover {
   border-color: var(--primary-brand);
 }
 
-.YA-CO:hover {
+.YACO-background:hover .YA-CO {
   fill: var(--primary-brand);
 }
+
 
 .tagline-background {
   background-color: var(--body-bg-color);
@@ -462,7 +463,7 @@ button:hover {
   border-color: var(--primary-brand);
 }
 
-.tagline-here:hover {
+.tagline-background:hover .tagline-here {
   fill: var(--primary-brand);
 }
 
@@ -481,11 +482,11 @@ button:hover {
   fill: var(--svg-background);
 }
 
-.company-background:hover{
+.company-background:hover {
   border-color: var(--primary-brand);
 }
 
-.company:hover {
+.company-background:hover .company {
   fill: var(--primary-brand);
 }
 
@@ -509,7 +510,7 @@ button:hover {
   border-color: var(--primary-brand);
 }
 
-.foster-peters:hover {
+.foster-background:hover .foster-peters {
   fill: var(--primary-brand);
 }
 
@@ -528,11 +529,11 @@ button:hover {
   fill: var(--svg-background);
 }
 
-.brand-background:hover{
+.brand-background:hover {
   border-color: var(--primary-brand);
 }
 
-.brand:hover {
+.brand-background:hover .brand  {
   fill: var(--primary-brand);
 }
 
@@ -551,12 +552,18 @@ button:hover {
   fill: var(--svg-background);
 }
 
-.tag-line-background:hover {
- border-color: var(--primary-brand);
-}
-
-.tag-line:hover {
+.tag-line-background:hover .tag-line {
   fill: var(--primary-brand);
+ }
+
+ .tag-line-background:hover {
+  border-color: var(--primary-brand);
+ }
+
+.customers-link {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 /* page portfolio */
