@@ -419,36 +419,18 @@ button:hover {
   gap: 24px;
 }
 
-.YACO-background {
-  background-color: var(--body-bg-color);
-  border: 1px solid var(--svg-background);
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 168px;
-  height: 88px;
-}
-
 .YA-CO {
   width: 104px;
   height: 56px;
   fill: var(--svg-background);
 }
 
-.YACO-background:hover {
+.customers-background:hover {
   border-color: var(--primary-brand);
 }
 
-.YACO-background:hover .YA-CO {
+.customers-background:hover .YA-CO {
   fill: var(--primary-brand);
-}
-
-.tagline-background {
-  background-color: var(--body-bg-color);
-  border: 1px solid var(--svg-background);
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 168px;
-  height: 88px;
 }
 
 .tagline-here {
@@ -457,21 +439,12 @@ button:hover {
   fill: var(--svg-background);
 }
 
-.tagline-background:hover {
+.customers-background:hover {
   border-color: var(--primary-brand);
 }
 
-.tagline-background:hover .tagline-here {
+.customers-background:hover .tagline-here {
   fill: var(--primary-brand);
-}
-
-.company-background {
-  background-color: var(--body-bg-color);
-  border: 1px solid var(--svg-background);
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 168px;
-  height: 88px;
 }
 
 .company {
@@ -480,21 +453,12 @@ button:hover {
   fill: var(--svg-background);
 }
 
-.company-background:hover {
+.customers-background:hover {
   border-color: var(--primary-brand);
 }
 
-.company-background:hover .company {
+.customers-background:hover .company {
   fill: var(--primary-brand);
-}
-
-.foster-background {
-  background-color: var(--body-bg-color);
-  border: 1px solid var(--svg-background);
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 168px;
-  height: 88px;
 }
 
 .foster-peters {
@@ -503,21 +467,12 @@ button:hover {
   fill: var(--svg-background);
 }
 
-.foster-background:hover {
+.fcustomers-background:hover {
   border-color: var(--primary-brand);
 }
 
-.foster-background:hover .foster-peters {
+.customers-background:hover .foster-peters {
   fill: var(--primary-brand);
-}
-
-.brand-background {
-  background-color: var(--body-bg-color);
-  border: 1px solid var(--svg-background);
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 168px;
-  height: 88px;
 }
 
 .brand {
@@ -526,19 +481,18 @@ button:hover {
   fill: var(--svg-background);
 }
 
-.brand-background:hover {
+.customers-background:hover {
   border-color: var(--primary-brand);
 }
 
-.brand-background:hover .brand {
+.customers-background:hover .brand {
   fill: var(--primary-brand);
 }
 
-.tag-line-background {
+.customers-background {
   background-color: var(--body-bg-color);
   border: 1px solid var(--svg-background);
   border-radius: 4px;
-  padding: 16px 32px;
   width: 168px;
   height: 88px;
 }
@@ -549,11 +503,11 @@ button:hover {
   fill: var(--svg-background);
 }
 
-.tag-line-background:hover .tag-line {
+.customers-background:hover .tag-line {
   fill: var(--primary-brand);
 }
 
-.tag-line-background:hover {
+.customers-background:hover {
   border-color: var(--primary-brand);
 }
 
@@ -561,6 +515,7 @@ button:hover {
   width: 100%;
   height: 100%;
   display: block;
+  padding: 16px 32px;
 }
 
 /* page portfolio */
