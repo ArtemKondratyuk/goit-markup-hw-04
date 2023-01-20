@@ -254,7 +254,7 @@ button:hover {
 }
 
 .clock {
-  width: 61.22px;
+  width: 64px;
   height: 64px;
 }
 
@@ -270,8 +270,8 @@ button:hover {
 }
 
 .notebook {
-  width: 61.22px;
-  height: 49.09px;
+  width: 64px;
+  height: 64px;
 }
 
 .astronaut-background {
@@ -286,8 +286,8 @@ button:hover {
 }
 
 .astronaut {
-  width: 55.13px;
-  height: 55.46px;
+  width: 64px;
+  height: 64px;
 }
 
 .feature {
@@ -393,11 +393,13 @@ button:hover {
 .instagram {
   width: 16px;
   height: 16px;
+  margin-top: 3px;
 }
 
 .twitter {
   width: 16px;
-  height: 13px;
+  height: 16px;
+  margin-top: 2px;
 }
 
 .facebook {
